@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicios de selectores</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', serif; /* Cambiar la tipografía a Times New Roman */
+      line-height: 1.2; /* Reducir el interlineado */
+      margin: 20px;
+    }
+
+    h1 {
+      font-size: 16px; /* Reducir el tamaño de la fuente */
+      margin-bottom: 8px; /* Reducir el espacio después de cada párrafo */
+      font-weight: normal; /* Quitar la negrita */
+    }
+
+
+    .italic-text {
+      font-style: italic; /* Agregar estilo itálico */
+    }
+
+
+    a {
+      text-decoration: underline; /* Quitar el subrayado por defecto en los enlaces */
+      color: rgb(6, 6, 158); /* Cambiar el color del enlace */
+    }
+
+    a:active {
+      color: red; /* Cambiar el color del enlace al hacer clic */
+    }
+
+    /* Otros estilos según sea necesario para los elementos específicos del texto */
+
+    /* Puedes añadir más estilos según tus necesidades */
+
+  </style>
+</head>
+<body>
+  <h1>Lorem ipsum dolor sit amet, <a href="#">consectetuer adipiscing elit. </a> Praesent blandit nibh at felis. Sed nec diam in dolor vestibulum aliquet. Duis ullamcorper, nisi non facilisis molestie, <span class="italic-text">lorem sem aliquam nulla</span>, id lacinia velit mi vestibulum enim.</h1>
+
+  <h1>Phasellus eu velit sed lorem sodales egestas. Ut feugiat. <a href="#">Donec porttitor</a>, magna eu varius luctus, metus massa tristique massa, in imperdiet est velit vel magna. Phasellus erat. Duis risus. <a href="#">Maecenas dictum </a>, nibh vitae pellentesque auctor, tellus velit consectetuer tellus, tempor pretium felis tellus at metus.</h1>
+
+  <h1>Cum sociis natoque  <span class="italic-text"> penatibus et magnis</span> dis parturient montes, nascetur ridiculus mus. Proin aliquam convallis ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc aliquet. Sed eu metus. Duis justo.</h1>
+
+  <h1>Donec facilisis blandit velit. Vestibulum nisi. Proin volutpat,  <span class="italic-text">enim id iaculis congue</span>, orci justo ultrices tortor, <a href="#">quis lacinia eros libero in eros</a>. Sed malesuada dui vel quam. Integer at eros.</h1>
+  
+  <!-- Más contenido... -->
+
+
+  <span class="italic-text"></span> 
+
+</body>
+</html>
